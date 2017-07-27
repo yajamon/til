@@ -25,6 +25,7 @@ Today I Learned
 ### linux
 
 - [CentOSのバージョン情報を確認する](linux/check-centos-version.md)
+- [プロセス名でプロセスをkillする](linux/kill-process-by-name.md)
 
 ### shellscript
 
