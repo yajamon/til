@@ -32,4 +32,13 @@ done
 {
     echo ""
     echo "- - -"
+    echo ""
 } >> $TARGET
+
+for p in $CATEGORIES
+do
+    category_name=$(basename $p)
+    echo "### ${category_name}" >> $TARGET
+
+    echo "" >> $TARGET
+done
