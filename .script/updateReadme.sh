@@ -39,6 +39,13 @@ for p in $CATEGORIES
 do
     category_name=$(basename $p)
     echo "### ${category_name}" >> $TARGET
+    echo "" >> $TARGET
+
+    for f in $(find $p -type f)
+    do
+        title=$(head -1 $f)
+        echo "- [${title#\# *}](${f#$ROOT/})" >> $TARGET
+    done
 
     echo "" >> $TARGET
 done
