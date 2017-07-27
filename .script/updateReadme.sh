@@ -19,7 +19,7 @@ readonly CATEGORIES=$(find $ROOT -mindepth 1 -maxdepth 1 -name "[a-zA-Z]*" -type
 } > $TARGET
 
 {
-    echo "### Categories"
+    echo "## Categories"
     echo ""
 } >> $TARGET
 
@@ -38,7 +38,7 @@ done
 for p in $CATEGORIES
 do
     category_name=$(basename $p)
-    echo "### ${category_name}" >> $TARGET
+    echo "### ${category_name^}" >> $TARGET
     echo "" >> $TARGET
 
     for f in $(find $p -type f)

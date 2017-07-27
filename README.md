@@ -4,7 +4,7 @@ Today I Learned
 
 - - -
 
-### Categories
+## Categories
 
 - [git](#git)
 - [javascript](#javascript)
@@ -14,26 +14,26 @@ Today I Learned
 
 - - -
 
-### git
+### Git
 
 - [git diffに色をつけたい](git/enable-diff-color.md)
 - [コミットログの間違ったcommitterの名前を修正する](git/fix-wrong-name-committer.md)
 
-### javascript
+### Javascript
 
 - [if (x != x) はNaNチェック](javascript/if-x-equal-x-false.md)
 
-### linux
+### Linux
 
 - [CentOSのバージョン情報を確認する](linux/check-centos-version.md)
 - [プロセス名でプロセスをkillする](linux/kill-process-by-name.md)
 
-### shellscript
+### Shellscript
 
 - [えくすぷろーじょん マシンは死ぬ](shellscript/bash-explosion.md)
 - [シェルスクリプトでヒアドキュメント](shellscript/here-document.md)
 
-### windows
+### Windows
 
 - [イメージ名でプロセスをkillする](windows/kill-process-by-image-name.md)
 
