@@ -6,8 +6,30 @@ readonly HEADER=$(cat << EOT
 # TIL
 
 Today I Learned
+
+- - -
 EOT
 )
 
+readonly CATEGORIES=$(find $ROOT -mindepth 1 -maxdepth 1 -name "[a-zA-Z]*" -type d)
 
-echo "$HEADER" > $TARGET
+{
+    echo "$HEADER"
+    echo ""
+} > $TARGET
+
+{
+    echo "### Categories"
+    echo ""
+} >> $TARGET
+
+for p in $CATEGORIES
+do
+    category_name=$(basename $p)
+    echo "- [${category_name}](#${category_name})" >> $TARGET
+done
+
+{
+    echo ""
+    echo "- - -"
+} >> $TARGET
