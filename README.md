@@ -10,6 +10,7 @@ Today I Learned
 - [javascript](#javascript)
 - [linux](#linux)
 - [shellscript](#shellscript)
+- [windows](#windows)
 
 - - -
 
@@ -31,4 +32,8 @@ Today I Learned
 
 - [えくすぷろーじょん マシンは死ぬ](shellscript/bash-explosion.md)
 - [シェルスクリプトでヒアドキュメント](shellscript/here-document.md)
+
+### windows
+
+- [イメージ名でプロセスをkillする](windows/kill-process-by-image-name.md)
 
