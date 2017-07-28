@@ -9,6 +9,7 @@ Today I Learned
 - [git](#git)
 - [javascript](#javascript)
 - [linux](#linux)
+- [objective-c](#objective-c)
 - [shellscript](#shellscript)
 - [windows](#windows)
 
@@ -27,6 +28,10 @@ Today I Learned
 
 - [CentOSのバージョン情報を確認する](linux/check-centos-version.md)
 - [プロセス名でプロセスをkillする](linux/kill-process-by-name.md)
+
+### Objective-c
+
+- [iOSアプリのエントリーポイントを調べる](objective-c/ios-app-entrypoint.md)
 
 ### Shellscript
 
