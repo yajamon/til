@@ -11,6 +11,7 @@ Today I Learned
 - [linux](#linux)
 - [objective-c](#objective-c)
 - [shellscript](#shellscript)
+- [swift](#swift)
 - [windows](#windows)
 
 - - -
@@ -37,6 +38,10 @@ Today I Learned
 
 - [えくすぷろーじょん マシンは死ぬ](shellscript/bash-explosion.md)
 - [シェルスクリプトでヒアドキュメント](shellscript/here-document.md)
+
+### Swift
+
+- [iOSアプリのエントリーポイントを調べる](swift/ios-app-entrypoint.md)
 
 ### Windows
 
