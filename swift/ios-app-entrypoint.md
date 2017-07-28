@@ -25,6 +25,8 @@
         - `UIApplicationMain(Process.argc, Process.unsafeArgv, nil, NSStringFromClass(AppDelegate))`
         - `AppDelegate`がApplicationDelegateとして使用される
 
+main.swiftに関する公式リファレンスは見つけていない。
+
 ### 最初に使用する`UIViewController`系クラスを探す
 
 1. Projectを開き、Targetを調べたいアプリに指定する
@@ -42,3 +44,6 @@
 5. Initial View ControllerのCustom Classを見る
     - Xcodeでプロジェクト作成直後の場合
         - `ViewController`
+
+- [Swift での main 関数の実装方法と起動時引数の扱い方](https://ez-net.jp/article/BC/vWrNTeBO/85hmtcwh9W3Y/)
+- [Swiftさん、アレないっす – Wano Developers Blog](http://developers.wano.co.jp/295/)
