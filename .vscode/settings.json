@@ -1,4 +1,8 @@
 // 既定の設定とユーザー設定を上書きするには、このファイル内に設定を挿入します
 {
-    "files.eol": "\n"
+    "files.eol": "\n",
+    "markdownlint.config": {
+        "MD013": false,
+        "MD029": {"style": "ordered"}
+    }
 }
