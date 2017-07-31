@@ -29,6 +29,7 @@ Today I Learned
 
 - [CentOSのバージョン情報を確認する](linux/check-centos-version.md)
 - [プロセス名でプロセスをkillする](linux/kill-process-by-name.md)
+- [制御文字を入力するにはCtrl+vをまず入力する](linux/put-meta-key.md)
 
 ### Objective-c
 
