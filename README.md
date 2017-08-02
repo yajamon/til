@@ -13,6 +13,7 @@ Today I Learned
 - [rust](#rust)
 - [shellscript](#shellscript)
 - [swift](#swift)
+- [vim](#vim)
 - [windows](#windows)
 
 - - -
@@ -49,6 +50,10 @@ Today I Learned
 ### Swift
 
 - [iOSアプリのエントリーポイントを調べる](swift/ios-app-entrypoint.md)
+
+### Vim
+
+- [Vimでタブを使う](vim/use-tab.md)
 
 ### Windows
 
