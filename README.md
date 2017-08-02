@@ -10,6 +10,7 @@ Today I Learned
 - [javascript](#javascript)
 - [linux](#linux)
 - [objective-c](#objective-c)
+- [rust](#rust)
 - [shellscript](#shellscript)
 - [swift](#swift)
 - [windows](#windows)
@@ -34,6 +35,10 @@ Today I Learned
 ### Objective-c
 
 - [iOSアプリのエントリーポイントを調べる](objective-c/ios-app-entrypoint.md)
+
+### Rust
+
+- [implとは何か？](rust/what-is-impl.md)
 
 ### Shellscript
 
