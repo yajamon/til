@@ -35,6 +35,7 @@ Today I Learned
 
 ### Objective-c
 
+- [シングルトンオブジェクトの作成方法](objective-c/how-to-create-singleton.md)
 - [iOSアプリのエントリーポイントを調べる](objective-c/ios-app-entrypoint.md)
 
 ### Rust
