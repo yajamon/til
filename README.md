@@ -37,6 +37,7 @@ Today I Learned
 
 - [シングルトンオブジェクトの作成方法](objective-c/how-to-create-singleton.md)
 - [iOSアプリのエントリーポイントを調べる](objective-c/ios-app-entrypoint.md)
+- [iOS8にて、[UIWindow new]で生成したWindowのframe原点が、Landscape状態の画面にも関わらず、Portrait左上になってしまう現象を解決した](objective-c/new-uiwindow-has-portrait-anchor-in-iOS8.md)
 
 ### Rust
 
