@@ -6,6 +6,7 @@ Today I Learned
 
 ## Categories
 
+- [algorithm](#algorithm)
 - [git](#git)
 - [javascript](#javascript)
 - [linux](#linux)
@@ -17,6 +18,10 @@ Today I Learned
 - [windows](#windows)
 
 - - -
+
+### Algorithm
+
+- [世界のナベアツ問題](algorithm/nabeatsu_question.md)
 
 ### Git
 
