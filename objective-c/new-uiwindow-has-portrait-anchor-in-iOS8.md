@@ -56,19 +56,31 @@ iOS 8だけ、UIScreenの原点と生成したWindowの原点が異なってい�
     UIWindow *w = [UIWindow new];
     w.frame = [UIScreen mainScreen].bounds;
 
-    // HACK: iOS 8系にてShouldAutoRotate == NO のViewControllerを
+    // HACK: iOS 8系にてshouldAutoRotate == NO のViewControllerを
     //       rootViewControllerに持ってmakeKeyAndVisibleを実行すると
     //       アプリケーションのInterfaceOrientationに関わらず
     //       InterfaceOrientationPortrait状態のWindowが表示されてしまう
+    //       よって、デフォルトではshouldAutoRotate == YESである
+    //       空のViewControllerを持たせることで回避する
+    //       iOS 9以降では空のUIViewControllerを持たせる必要はなく、
+    //       表示したいViewControllerを持たせて構わない
+
     w.rootViewController = [UIViewController];
 
     self.w = w;
     [self.w makeKeyAndVisible];
+
+    // HACK: iOS 8系にてShouldAutoRotate == NO のViewControllerを
+    //       rootViewControllerに持ってmakeKeyAndVisibleを実行すると
+    //       アプリケーションのInterfaceOrientationに関わらず
+    //       InterfaceOrientationPortrait状態のWindowが表示されてしまう
+    //       よって空のViewControllerを持たせてmakeKeyAndVisibleを実行した後に
+    //       ViewControllerを差し替える
     w.rootViewController = [SampleViewController new];
 }
 ```
 
-直前まで表示されていたWindowのInterfaceOrientationを元に、表示したいWindowにtransformかけるしかないのか…？という悩みから解決されて最高に気分がいい。・
+直前まで表示されていたWindowのInterfaceOrientationを元に、表示したいWindowにtransformかけるしかないのか…？という悩みから解決されて最高に気分がいい。
 
 - [swift - iOS 8 - UIWindow Orientation Is Always Portrait - Stack Overflow](https://stackoverflow.com/questions/26916009/ios-8-uiwindow-orientation-is-always-portrait)
     - 読んだ時別件かなと思ったけど、解決した今、たしかにこの追記がベストな回答だと理解した
