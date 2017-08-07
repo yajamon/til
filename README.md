@@ -35,6 +35,7 @@ Today I Learned
 ### Linux
 
 - [CentOSのバージョン情報を確認する](linux/check-centos-version.md)
+- [CentOSにSoftware Collection(SCL)の導入する手順](linux/how-to-use-software-collection.md)
 - [プロセス名でプロセスをkillする](linux/kill-process-by-name.md)
 - [制御文字を入力するにはCtrl+vをまず入力する](linux/put-meta-key.md)
 
