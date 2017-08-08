@@ -19,7 +19,7 @@ sudo yum-config-manager --enable rhel-server-rhscl-6-rpms
 SCLからPython2.7を導入してみる。
 
 ```sh
-sudu yum install -y python27
+sudo yum install -y python27
 ```
 
 SCLから導入されたPython2.7を有効にする。
