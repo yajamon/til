@@ -26,7 +26,7 @@ SCLから導入されたPython2.7を有効にする。
 
 ```sh
 # シェルからとりあえず一時的に使う
-sudo scl enable python27 bash
+scl enable python27 bash
 ```
 
 ```sh
