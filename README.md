@@ -13,6 +13,7 @@ Today I Learned
 - [objective-c](#objective-c)
 - [rust](#rust)
 - [shellscript](#shellscript)
+- [sqlserver](#sqlserver)
 - [swift](#swift)
 - [vim](#vim)
 - [windows](#windows)
@@ -55,6 +56,10 @@ Today I Learned
 - [シェルスクリプトでヒアドキュメント](shellscript/here-document.md)
 - [短絡評価を用いて三項演算子のように処理を使い分けるインラインコマンド](shellscript/inline-if-else.md)
 - [一時ファイル、一時ディレクトリを使う](shellscript/make-temporary-directory.md)
+
+### Sqlserver
+
+- [SQLServerにUnicodeの文字列データを格納する場合はnvarcharを使用する](sqlserver/why-use-nvarchar.md)
 
 ### Swift
 
