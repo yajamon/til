@@ -7,6 +7,7 @@ Today I Learned
 ## Categories
 
 - [algorithm](#algorithm)
+- [dotnet](#dotnet)
 - [git](#git)
 - [javascript](#javascript)
 - [linux](#linux)
@@ -23,6 +24,10 @@ Today I Learned
 ### Algorithm
 
 - [世界のナベアツ問題](algorithm/nabeatsu_question.md)
+
+### Dotnet
+
+- [Razorビュー・エンジンについてのリンク集](dotnet/links-of-razor-documents.md)
 
 ### Git
 
