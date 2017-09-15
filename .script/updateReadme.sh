@@ -7,6 +7,8 @@ readonly HEADER=$(cat << EOT
 
 Today I Learned
 
+素晴らしき書捨て
+
 - - -
 EOT
 )

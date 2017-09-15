@@ -2,6 +2,8 @@
 
 Today I Learned
 
+素晴らしき書捨て
+
 - - -
 
 ## Categories
