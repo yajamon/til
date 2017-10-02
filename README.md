@@ -66,6 +66,7 @@ Today I Learned
 - [シェルスクリプトでヒアドキュメント](shellscript/here-document.md)
 - [短絡評価を用いて三項演算子のように処理を使い分けるインラインコマンド](shellscript/inline-if-else.md)
 - [一時ファイル、一時ディレクトリを使う](shellscript/make-temporary-directory.md)
+- [readコマンドで先頭の単語を取り出す](shellscript/read-and-trush.md)
 
 ### Sqlserver
 
