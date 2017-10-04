@@ -78,6 +78,7 @@ Today I Learned
 
 ### Vim
 
+- [Vimでレジスタを意識して使う](vim/use-registers.md)
 - [Vimでタブを使う](vim/use-tab.md)
 
 ### Windows
