@@ -49,6 +49,7 @@ Today I Learned
 - [CentOS6に`tig`をインストールした](linux/install-tools-tig-to-centos6.md)
 - [プロセス名でプロセスをkillする](linux/kill-process-by-name.md)
 - [制御文字を入力するにはCtrl+vをまず入力する](linux/put-meta-key.md)
+- [watchコマンドが便利だった](linux/watch-command.md)
 
 ### Objective-c
 
