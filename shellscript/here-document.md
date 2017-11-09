@@ -15,6 +15,16 @@ EOT
 >
 > [bashのヒアドキュメントを活用する - Qiita](http://qiita.com/take4s5i/items/e207cee4fb04385a9952)
 
+## リダイレクト
+
+```bash
+cat << EOT >> lines.txt
+line 1
+line 2
+line 3
+EOT
+```
+
 ## 変数代入
 
 サブシェル上で実行して結果を受け取る。
