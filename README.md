@@ -50,6 +50,7 @@ Today I Learned
 - [プロセス名でプロセスをkillする](linux/kill-process-by-name.md)
 - [制御文字を入力するにはCtrl+vをまず入力する](linux/put-meta-key.md)
 - [watchコマンドが便利だった](linux/watch-command.md)
+- [dateコマンドで日付からミリ秒までフルに取りたい！](linux/get-fulldate-time-msec-by-date-command.md)
 
 ### Objective-c
 
