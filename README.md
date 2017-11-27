@@ -34,6 +34,7 @@ Today I Learned
 
 ### Git
 
+- [gitのコミットハッシュを見て、処理を続行するか判断する](git/choose-logic-by-commit-hash.md)
 - [git diffに色をつけたい](git/enable-diff-color.md)
 - [コミットログの間違ったcommitterの名前を修正する](git/fix-wrong-name-committer.md)
 - [git diffにおけるコミットの位置関係](git/git-diff-two-commit.md)
