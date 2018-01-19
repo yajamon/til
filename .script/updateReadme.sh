@@ -23,7 +23,7 @@ EOT
 
 
 put_info "pick categories"
-readonly CATEGORIES=$(find $ROOT -mindepth 1 -maxdepth 1 -name "[a-zA-Z]*" -type d)
+readonly CATEGORIES=$(find $ROOT -mindepth 1 -maxdepth 1 -name "[a-zA-Z]*" -type d | sort)
 
 put_info "start write categories TOC"
 cat << EOT >> $TARGET
@@ -53,7 +53,7 @@ do
     echo "### ${category_name^}" >> $TARGET
     echo "" >> $TARGET
 
-    for f in $(find $p -type f)
+    for f in $(find $p -type f | sort)
     do
         title=$(head -1 $f)
         put_info "write content: $title"
