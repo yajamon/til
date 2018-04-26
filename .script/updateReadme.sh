@@ -50,7 +50,7 @@ for p in $CATEGORIES
 do
     category_name=$(basename $p)
     put_info "write category: $category_name"
-    echo "### ${category_name^}" >> $TARGET
+    echo "### ${category_name}" | perl -pe 's/(### .)/uc($1)/e;' >> $TARGET
     echo "" >> $TARGET
 
     for f in $(find $p -type f | sort)
