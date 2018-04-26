@@ -13,6 +13,7 @@ Today I Learned
 - [git](#git)
 - [javascript](#javascript)
 - [linux](#linux)
+- [macos](#macos)
 - [objective-c](#objective-c)
 - [rust](#rust)
 - [shellscript](#shellscript)
@@ -52,6 +53,10 @@ Today I Learned
 - [プロセス名でプロセスをkillする](linux/kill-process-by-name.md)
 - [制御文字を入力するにはCtrl+vをまず入力する](linux/put-meta-key.md)
 - [watchコマンドが便利だった](linux/watch-command.md)
+
+### Macos
+
+- [かな変換のショートカットキー](macos/shortcut-convert-kana.md)
 
 ### Objective-c
 
