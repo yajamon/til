@@ -82,6 +82,7 @@ Today I Learned
 
 ### Swift
 
+- [Swiftにエルビス演算子(?:)は無いが、Nil合体演算子(??)がある](swift/elvis-operator-in-swift.md)
 - [iOSアプリのエントリーポイントを調べる](swift/ios-app-entrypoint.md)
 
 ### Vim
