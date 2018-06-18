@@ -36,6 +36,7 @@ Today I Learned
 
 - [git diffに色をつけたい](git/enable-diff-color.md)
 - [コミットログの間違ったcommitterの名前を修正する](git/fix-wrong-name-committer.md)
+- [git diffにおけるコミットの位置関係](git/git-diff-two-commit.md)
 - [差分のあるファイル一覧から、grepでいい感じに特定ファイルのDiffを見る](git/smart-select-to-diff-target-with-grep.md)
 
 ### Javascript
