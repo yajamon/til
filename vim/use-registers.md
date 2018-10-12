@@ -37,7 +37,7 @@ println!("first: {}", first);
 6. `Ctrl+r b`を入力して`first`を取り出す
 7. `/g`を入力して実行
 
-# 参考URL
+## 参考URL
 
 - [vim tips レジスタを使ったコピーとペースト] (http://kaworu.jpn.org/kaworu/2007-11-21-2.php)
 - [Vim備忘録 コピペとレジスタ - Man On a Mission] (http://oplern.hatenablog.com/entry/2017/04/16/174653)
