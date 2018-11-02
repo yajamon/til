@@ -54,6 +54,7 @@ Today I Learned
 - [CentOSにSoftware Collection(SCL)の導入する手順](linux/how-to-use-software-collection.md)
 - [CentOS6に`tig`をインストールした](linux/install-tools-tig-to-centos6.md)
 - [プロセス名でプロセスをkillする](linux/kill-process-by-name.md)
+- [ls コマンドで更新日時順にするには -t オプションをつける](linux/list-files-order-by-ctime.md)
 - [制御文字を入力するにはCtrl+vをまず入力する](linux/put-meta-key.md)
 - [watchコマンドが便利だった](linux/watch-command.md)
 
