@@ -90,6 +90,7 @@ Today I Learned
 
 ### Vim
 
+- [Vimのコマンド履歴](vim/command-history.md)
 - [WindowsでVimを使う時にUTF-8でファイル出力をしたい](vim/fileencoding-in-windows.md)
 - [Vimでレジスタを意識して使う](vim/use-registers.md)
 - [Vimでタブを使う](vim/use-tab.md)
