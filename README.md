@@ -93,6 +93,7 @@ Today I Learned
 
 - [Vimのコマンド履歴](vim/command-history.md)
 - [WindowsでVimを使う時にUTF-8でファイル出力をしたい](vim/fileencoding-in-windows.md)
+- [ファイル中に書いてあるPATHのファイルをVimで開く](vim/open-path-in-vim.md)
 - [Vimでレジスタを意識して使う](vim/use-registers.md)
 - [Vimでタブを使う](vim/use-tab.md)
 
