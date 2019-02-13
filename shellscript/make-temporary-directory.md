@@ -12,6 +12,6 @@ Create a temporary file or directory, safely, and print its name.
   -q, --quiet         suppress diagnostics about file/dir-creation failure
 ```
 
-`tempfile=$(mktemp)`とすれば一時ファイルよのパスを得られる
+`tempfile=$(mktemp)`とすれば一時ファイルのパスを得られる
 
 `tempdir=$(mktemp -d)`とすれば、一時ディレクトリのパスを得られる
