@@ -9,6 +9,7 @@ Today I Learned
 ## Categories
 
 - [algorithm](#algorithm)
+- [c](#c)
 - [dotnet](#dotnet)
 - [git](#git)
 - [go](#go)
@@ -28,6 +29,10 @@ Today I Learned
 ### Algorithm
 
 - [世界のナベアツ問題](algorithm/nabeatsu_question.md)
+
+### C
+
+- [SQLite3にクエリを投げてみる](c/sqlite-getstarted.md)
 
 ### Dotnet
 
