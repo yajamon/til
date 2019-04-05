@@ -11,6 +11,7 @@ Today I Learned
 - [algorithm](#algorithm)
 - [dotnet](#dotnet)
 - [git](#git)
+- [go](#go)
 - [javascript](#javascript)
 - [linux](#linux)
 - [macos](#macos)
@@ -41,6 +42,10 @@ Today I Learned
 - [あるコミット時点のファイルを取得する](git/git-show-old-file.md)
 - [現在のbranchを(branch nameを書かずに)リモートにPushしたい](git/set-upstream-current-branch.md)
 - [差分のあるファイル一覧から、grepでいい感じに特定ファイルのDiffを見る](git/smart-select-to-diff-target-with-grep.md)
+
+### Go
+
+- [Hello world](go/hello-world.md)
 
 ### Javascript
 
