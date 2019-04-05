@@ -45,6 +45,7 @@ Today I Learned
 
 ### Go
 
+- [基本的な処理](go/basic-logic.md)
 - [Hello world](go/hello-world.md)
 
 ### Javascript
