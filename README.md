@@ -33,6 +33,7 @@ Today I Learned
 ### C
 
 - [SQLite3にクエリを投げてみる](c/sqlite-getstarted.md)
+- [汎用ポインタの使い方を知る](c/void-pointer.md)
 
 ### Dotnet
 
