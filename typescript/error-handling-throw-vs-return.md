@@ -12,6 +12,7 @@
 - throw Error
 - return tuple
 - return null
+- return simple Result
 
 ### throw Error
 
@@ -80,6 +81,7 @@ function handleSubmit(parameters) {
     - シグネチャに現れる情報
         - 型の支援が受けられる
 - 分割代入である程度すっきり書けるが、あと一歩型推論のパワーがほしい
+    - 上記でnameの方が定まらないところとか
 
 ```ts
 tuple: [Name, null] | [null, Error];
@@ -123,6 +125,52 @@ function handleSubmit(parameters) {
     - シグネチャに現れる情報
         - 型の支援が受けられる
 - nullだったという情報しかないので、「何かがまずかった」としか表現できない
+
+###  return simple Result
+
+```ts
+type Ok<T> = {
+    isError: false;
+    ok: T;
+};
+type Err<E> = {
+    isError: true;
+    error: E;
+};
+type Result<T, E> = Ok<T> | Err<E>;
+const ok: <T>(value: T) => Ok<T> = (v) => ({ isError: false, ok: v });
+const err: <E>(error: E) => Err<E> = (e) => ({ isError: true, error: e });
+```
+
+```ts
+// domain layer
+class Name {
+    readonly value: string;
+    private constructor(value: string){
+        this.value = value;
+    }
+    static create(name: string): Result<Name, Error> {
+        if (name === '') { return err(new Error("空文字はだめです")); }
+        return ok(new Name(name));
+    }
+}
+// presentation layer
+function handleSubmit(parameters) {
+    const name = Name.create(parameters.name);
+    if (name.isError) {
+        displayErrorMessage(name.error);
+        return false;
+    }
+    // 分割代入後にerrorの型が定まっても、nameの型が定まったとは扱われない
+    doSomething(name.ok);
+    // ...
+    return true;
+}
+```
+
+- 利用者側は、ファクトリが返すResultを意識する
+    - シグネチャに現れる情報
+        - 型の支援が受けられる
 
 ## 脱線
 
