@@ -128,6 +128,10 @@ function handleSubmit(parameters) {
 
 ###  return simple Result
 
+参考資料より
+
+- https://medium.com/@dhruvrajvanshi/making-exceptions-type-safe-in-typescript-c4d200ee78e9
+
 ```ts
 type Ok<T> = {
     isError: false;
