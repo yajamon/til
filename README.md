@@ -21,6 +21,7 @@ Today I Learned
 - [shellscript](#shellscript)
 - [sqlserver](#sqlserver)
 - [swift](#swift)
+- [typescript](#typescript)
 - [vim](#vim)
 - [windows](#windows)
 
@@ -101,6 +102,10 @@ Today I Learned
 
 - [Swiftにエルビス演算子(?:)は無いが、Nil合体演算子(??)がある](swift/elvis-operator-in-swift.md)
 - [iOSアプリのエントリーポイントを調べる](swift/ios-app-entrypoint.md)
+
+### Typescript
+
+- [Error handling を考える: throw vs return](typescript/error-handling-throw-vs-return.md)
 
 ### Vim
 
