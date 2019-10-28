@@ -50,6 +50,7 @@ Today I Learned
 - [現在のbranchを(branch nameを書かずに)リモートにPushしたい](git/set-upstream-current-branch.md)
 - [差分のあるファイル一覧から、grepでいい感じに特定ファイルのDiffを見る](git/smart-select-to-diff-target-with-grep.md)
 - [一時ディレクトリにローカルリポジトリをクローンする](git/temporary-clone-from-localrepo.md)
+- [複数のbranchをぱぱっとpullする](git/update-many-branch.md)
 
 ### Go
 
