@@ -13,6 +13,7 @@ Today I Learned
 - [dotnet](#dotnet)
 - [git](#git)
 - [go](#go)
+- [ios-programing](#ios-programing)
 - [javascript](#javascript)
 - [linux](#linux)
 - [macos](#macos)
@@ -56,6 +57,10 @@ Today I Learned
 
 - [基本的な処理](go/basic-logic.md)
 - [Hello world](go/hello-world.md)
+
+### Ios-programing
+
+- [LanguageCode を取得する方法](ios-programing/how-to-print-current-language-code.md)
 
 ### Javascript
 
