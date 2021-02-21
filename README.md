@@ -91,6 +91,7 @@ Today I Learned
 
 ### Rust
 
+- [Rustで binary\_search](rust/binary_search.md)
 - [implとは何か？](rust/what-is-impl.md)
 
 ### Shellscript
