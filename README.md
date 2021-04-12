@@ -25,6 +25,7 @@ Today I Learned
 - [typescript](#typescript)
 - [vim](#vim)
 - [windows](#windows)
+- [words](#words)
 
 - - -
 
@@ -128,4 +129,8 @@ Today I Learned
 ### Windows
 
 - [イメージ名でプロセスをkillする](windows/kill-process-by-image-name.md)
+
+### Words
+
+- [safeguard](words/safeguards.md)
 
