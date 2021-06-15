@@ -9,6 +9,7 @@ Today I Learned
 ## Categories
 
 - [algorithm](#algorithm)
+- [bash](#bash)
 - [c](#c)
 - [dotnet](#dotnet)
 - [git](#git)
@@ -32,6 +33,10 @@ Today I Learned
 ### Algorithm
 
 - [世界のナベアツ問題](algorithm/nabeatsu_question.md)
+
+### Bash
+
+- [覚えておきたい変数展開](bash/variable-expansion.md)
 
 ### C
 
