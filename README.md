@@ -13,6 +13,7 @@ Today I Learned
 - [c](#c)
 - [dotnet](#dotnet)
 - [git](#git)
+- [github](#github)
 - [go](#go)
 - [ios-programing](#ios-programing)
 - [javascript](#javascript)
@@ -58,6 +59,10 @@ Today I Learned
 - [差分のあるファイル一覧から、grepでいい感じに特定ファイルのDiffを見る](git/smart-select-to-diff-target-with-grep.md)
 - [一時ディレクトリにローカルリポジトリをクローンする](git/temporary-clone-from-localrepo.md)
 - [複数のbranchをぱぱっとpullする](git/update-many-branch.md)
+
+### Github
+
+- [issue番号がブランチ名に含まれるとどうなるのか](github/issue_number-in-branch_name.md)
 
 ### Go
 
