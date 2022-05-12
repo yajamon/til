@@ -37,6 +37,7 @@ Today I Learned
 
 ### Bash
 
+- [空ファイルの作り方](bash/new-empty-file.md)
 - [覚えておきたい変数展開](bash/variable-expansion.md)
 
 ### C
